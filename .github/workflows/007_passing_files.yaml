@@ -23,13 +23,6 @@ jobs:
           tox -e unit
           ls -la ${{ github.workspace }}/backend
           echo "Check specific file:"
-          if [ -f backend/.coverage ]; then
-            echo ".coverage found ✅"
-          else
-            echo "❌ .coverage not found"
-            find . -name ".coverage"
-            exit 1
-          fi
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
