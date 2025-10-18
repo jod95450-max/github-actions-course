@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: coverage
-          path: backend/.coverage
+          path: /backend/.coverage
   
   load-file-example:
     runs-on: ubuntu-22.04
