@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: coverage
-          path: ${{ github.workspace }}/backend/.coverage
+          path: ${{ github.workspace }}/.coverage
   
   load-file-example:
     runs-on: ubuntu-22.04
