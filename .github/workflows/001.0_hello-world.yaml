@@ -1,4 +1,4 @@
-name: "01 Hello World"
+name: "01.0 Hello World"
 
 on:
   workflow_call:
