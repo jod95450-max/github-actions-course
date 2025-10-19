@@ -26,4 +26,3 @@ jobs:
           git add new-file.txt
           git commit -m "Attempt to write"
           git push origin ${{ github.ref }}
-        continue-on-error: true
