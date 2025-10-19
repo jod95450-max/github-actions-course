@@ -1,7 +1,7 @@
 name: "01.0 Hello World"
 
 on:
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   say_hello_job:
