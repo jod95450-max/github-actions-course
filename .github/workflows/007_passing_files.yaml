@@ -22,13 +22,13 @@ jobs:
           cd backend
           tox -e unit
           ls -la ${{ github.workspace }}/backend
-          echo "Check specific file:"
+          
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: coverage
-          path: ${{ github.workspace }}/main.py
+          path: ${{ github.workspace }}/backend/.coverage
   
   load-file-example:
     runs-on: ubuntu-22.04
