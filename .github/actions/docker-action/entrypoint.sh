@@ -1,5 +1,5 @@
 #!/bin/sh -l
-echo "Arg received $1"
+echo "Arg1 received $1"
 echo "Workdir:"
 ls -la
 name=$1

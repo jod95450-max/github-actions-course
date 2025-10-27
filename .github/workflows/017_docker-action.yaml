@@ -18,7 +18,7 @@ jobs:
           name: 'John'
         id: custom-action
 
-      - name: Print Processed Name
+      - name: Print Processed Name 
         run: | 
           echo "Processed Name: ${{ steps.custom-action.outputs.processed-name }}"
           echo "workdir"
